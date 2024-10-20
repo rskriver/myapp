@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { sound } from 'svelte-sound';
-	import click_sound from '../lib/assets/mixkit-hard-typewriter-click-1119.wav';
-	import hover_sound from '../lib/assets/mixkit-helicopter-flying-far-away-2715.wav';
-	import UserInput from '../lib/components/UserInput.svelte';
+	import click_sound from '$lib/assets/mixkit-hard-typewriter-click-1119.wav';
+	import hover_sound from '$lib/assets/mixkit-helicopter-flying-far-away-2715.wav';
+	import UserInput from '$lib/components/UserInput.svelte';
 
 	let number = $state(0);
 </script>
 
-<UserInput userName = "Paven">
+<UserInput userName = "">
     <h1>Dette er en test af component destructuring of props</h1>
 </UserInput>
 <!-- <UserInput /> -->

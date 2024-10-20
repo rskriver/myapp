@@ -6,10 +6,7 @@
 		userName: string;
 	}
 	let { userName, children, ...props }: UserInputInterface = $props();
-	$inspect(children, 'data');
-
-	// let userName = $state('');
-	$inspect(userName, 'userName');
+	// $inspect(children, 'data');
 </script>
 
 <h1>Your username is: {userName}</h1>
